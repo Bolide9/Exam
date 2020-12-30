@@ -1,4 +1,3 @@
-import re as regex
 import collections
 
 """
