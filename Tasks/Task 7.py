@@ -5,7 +5,6 @@ b = int(input())
 
 symb = str(input('Введите символ: '))
 
-
 if symb == '+':
     print(a + b)
 if symb == '-':
