@@ -7,10 +7,10 @@ a = int(input('Введите число: '))
 b = int(input('Введите число: '))
 c = int(input('Введите число: '))
 
-lst = [a,b,c]
+lst = [a, b, c]
 lst.sort()
 
+print(lst[2])
 print(lst[0])
 print(lst[1])
-print(lst[2])
 
