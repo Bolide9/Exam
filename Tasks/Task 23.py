@@ -8,9 +8,15 @@ b = int(input('Введите число: '))
 c = int(input('Введите число: '))
 
 lst = [a, b, c]
+
+# ТАК
 lst.sort()
 
 print(lst[2])
 print(lst[0])
 print(lst[1])
 
+# ЛИБО так:
+print(max(lst))
+print(min(lst))
+print(int(sum(lst) / len(lst)))
